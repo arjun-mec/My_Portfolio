@@ -1,90 +1,94 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito&display=swap");
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    transition: transform 0.2s ease;
+  font-family: "Montserrat", sans-serif;
+  transition: transform 0.2s ease;
+  color: #5588ff;
 }
 
 h1:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 h3 {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #2a9d8f;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
+  background-color: #121212;
+  color: #8899a6;
 }
 
 #images {
-    display: flex;
-    transition: transform 0.2s ease;
+  display: flex;
+  transition: transform 0.2s ease;
 }
 
 #images img {
-    margin-right: 10px;
-    width: 32.1vw;
-    height: auto;
+  margin-right: 10px;
+  width: 32.1vw;
+  height: auto;
 }
 
 #socials {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #socials img {
-    margin-right: 10px;
-    width:30px;
-    height: auto;
+  margin-right: 10px;
+  width: 30px;
+  height: auto;
 }
 
 a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    margin: 5px;
-    transition: transform 0.2s ease;
-    color: #007BFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  transition: transform 0.2s ease;
+  color: #007bff;
 }
 
 a:hover {
-    transform: translateY(-5px);
-    color: #007BFF;
+  transform: translateY(-5px);
+  color: #007bff;
 }
 
 a:visited {
-    color: #007BFF;
+  color: #007bff;
 }
 
 .text-container {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .text-container::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: #007BFF;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.3s ease;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #007bff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
 }
 
 .text-container:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 #model {
-    width: 97vw;
-    margin-right: 5px;
-    margin-left: 5px;
+  width: 97vw;
+  margin-right: 5px;
+  margin-left: 5px;
 }
